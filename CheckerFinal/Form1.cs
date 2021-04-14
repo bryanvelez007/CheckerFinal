@@ -29,7 +29,7 @@ namespace CheckerFinal
         {
             ChromeDriver driver = new ChromeDriver();
             driver.Url = "https://aspnetcoremaster.com";
-            Thread.Sleep(6000);
+            Thread.Sleep(7000);
             driver.Close();
         }
 
